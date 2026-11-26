@@ -3,39 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MailClient Privacy</title>
+<title>Mario Mail MCP Privacy</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
 <h1>Privacy policy</h1>
-<p class="muted">MailClient · Last updated 26 November 2026</p>
+<p class="muted">Mario Mail MCP · Last updated 26 November 2026</p>
 
-<p>MailClient is a personal macOS app. Only its owner uses it, with the owner's own Google accounts.</p>
+<p>Mario Mail MCP is the Google sign-in for two personal tools: a Mac mail app and a Gmail tool for Claude. Only their owner uses them, with the owner's own Google accounts.</p>
 
-<h2>What the app gets from Google</h2>
+<h2>What the tools get from Google</h2>
 <ul>
 <li>Your email address, to know which account is signed in.</li>
-<li>Your Gmail messages, labels, drafts and signatures, through the <code>gmail.modify</code> scope.</li>
-<li>New-mail notices, through Google Cloud Pub/Sub.</li>
+<li>Your Gmail messages, labels, drafts and signatures.</li>
+<li>New-mail notices, through Google Cloud Pub/Sub (mail app only).</li>
 </ul>
 
 <h2>Where it is kept</h2>
 <ul>
-<li>A copy of recent mail is kept in a database on the owner's Mac, inside the app's sandbox.</li>
-<li>Sign-in tokens are kept in the macOS Keychain.</li>
-<li>Nothing is kept on any other computer or server.</li>
+<li>The mail app keeps a copy of recent mail in a database on the owner's Mac, inside the app's sandbox.</li>
+<li>Sign-in tokens are kept on the owner's Mac.</li>
+<li>Neither tool keeps your data on a server of its own.</li>
 </ul>
 
 <h2>Who gets it</h2>
-<p>No one. The app talks only to Google's servers. It has no server of its own. It does not sell, share or send your data to anyone. It has no ads, analytics or tracking.</p>
-<p>Remote images in a message stay blocked until you choose to load them. If you do, they come from the sender's servers, as in any mail app.</p>
-
-<h2>Google API Services</h2>
-<p>MailClient's use and transfer of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<ul>
+<li>The mail app talks only to Google's servers.</li>
+<li>The Claude tool gives Claude, Anthropic's AI assistant, only the mail the owner asks about. Anthropic handles it under the owner's own Anthropic account.</li>
+<li>Neither tool sells or shares your data with anyone else. They have no ads, analytics or tracking.</li>
+</ul>
+<p>Remote images in a message stay blocked in the mail app until you choose to load them. If you do, they come from the sender's servers, as in any mail app.</p>
 
 <h2>How to remove access</h2>
-<p>Remove the account in the app's Settings, or remove the app's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the app's sandbox folder deletes the local copy of your mail.</p>
+<p>Remove the account in the mail app's Settings, or remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the mail app's sandbox folder deletes its local copy of your mail.</p>
 
 <h2>Contact</h2>
 <p>Open an issue in <a href="https://github.com/marioattieh/mail-client-pages/issues">this site's GitHub repository</a>.</p>
